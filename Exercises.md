@@ -1,4 +1,5 @@
 # Advanced methods in bioimage analysis
+
 EMBO Practical Course, Heidelberg, 2023
 
 # Preliminary installations (local workstations that need to be setup)
@@ -12,10 +13,20 @@ From session one you should already have:
     - IJB-Plugins
     - DeepImageJ
   - Press Apply Changes.
-## Ilastik
-TODO: add any important information for the users who are running the exercises locally.
+
+## ilastik
+
+* Download the latest beta version of ilastik from [our download page](https://www.ilastik.org/download.html#beta).
+* Windows users please install, Mac and linux users please extract the downloaded file.
+
+Useful links:
+* [ilastik documentation](https://www.ilastik.org/documentation/)
+* [ilastik on forum.image.sc](https://forum.image.sc/tag/ilastik)
+* [ilastik source code](https://github.com/ilastik/ilastik)
+
 ## BioImage Model Zoo
-Google Chrome
+
+Download and install [Google Chrome](https://www.google.com/chrome/)
 
 # BioImage Model Zoo exercises
 
@@ -126,3 +137,48 @@ run("Set Label Map", "colormap=Spectrum background=Black shuffle");
 ```
 
 </details>
+
+# ilastik
+
+data: TODO: insert link :)
+
+## Exercise 5 - Boundary segmentation with the BioimageIO Model Zoo
+
+**data**:
+* `neural_network_workflow/N6_root_z130.h5`
+
+1. Open ilastik.
+2. Create a new _Neural Network Classification_ Workflow.
+3. load the hdf5 image file.
+4. Proceed to the next workflow step (_NN Prediction_).
+5. Go to https://bioimage.io and try to find a network you think would fit this data.
+6. Copy the _nickname_ or the _doi_ of the model and paste it into the textfield on the left in ilastik.
+7. Alternatively, use the network `2d-unet-arabidopsis-ovules_torchscript.zip` that is in this folder.
+8. Export the result.
+
+Bonus:
+* Try any of the other images in the `neural_network_workflow` folder and see how the network performs.
+* Try the autocontext workflow on the same image.
+
+## Exercise 6 - Boundary-based instance segmentation Multicut
+
+**data**:
+* raw_data: `neural_network_workflow/N6_root_z130.h5`
+* probabilities: exported result from Exercise 5.
+
+Boundary-based instance segmentation
+
+**Part 1:**
+1. From Edges to Objects in the _Boundary-Based Segmentation with Multicut_ workflow (create a new workflow).
+2. Load the dataset along with the corresponding probability map (you can use pixel classification, autocontext, or the **neural network workflow result from the previous exercise**).
+3. In the DT Watershed, try different values for smoothing. Try to avoid joined segments - those cannot be separated anymore in later steps.
+4. You can quickly see the raw data by pressing the letter `i` on the keyboard.
+   Pressing `i` again will show you all overlay images again.
+
+**Part2:**
+1. Proceed on to training and Multicut.
+2. Annotate edges you want to keep by _right clicking_ on them (red), and edges that should be left out of the solution with the _left mouse button_ (green). Click _live update_.
+3. Check out the Multicut solution by clicking _update now_.
+   Activate the Multicut Segmentation layer by clicking on the "eye" icon to see the label image.
+   Are you happy with the result?
+4. Is it enough to change the _Threshold_ value to improve the segmentation?
