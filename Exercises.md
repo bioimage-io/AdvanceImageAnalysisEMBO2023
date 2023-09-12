@@ -89,9 +89,14 @@ Play with the prediction in the browser with the any of the following models:
             -	Compactness: 0.00.
  
 ### IJ Macro for automation
+
 The previous code can also be run automatically with an ImageJ macro:
 
-```
+<details>
+
+<summary>Macro code for above exercise</summary>
+
+```javascript
 name = "model_output";
 rename(name);
 run("Split Channels");
@@ -119,3 +124,5 @@ rename("markers");
 run("Marker-controlled Watershed", "input=C1-"+name + " marker=[markers] mask=C1-" + name + " compactness=0 binary calculate use");
 run("Set Label Map", "colormap=Spectrum background=Black shuffle");
 ```
+
+</details>
