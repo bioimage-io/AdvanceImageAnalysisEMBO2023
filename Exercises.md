@@ -32,6 +32,7 @@ Download and install [Google Chrome](https://www.google.com/chrome/)
 
 ## Exercise 1: Explore the BioImage Model Zoo content
 (User guide: https://bioimage.io/docs/#/user_guide/README)
+
 You have 5 minutes to complete this exercise :)
 
 
@@ -56,8 +57,8 @@ Browser prediction: Use the model `shivering-raccoon`.
 - Choose the correct order for the channels (look at the description of the model). For 2D, it is usually `bcyx`.
 - Click on submit.
  
-### Exercise 2.1
-Play with the prediction in the browser with the any of the following models:
+### Exercise 2.1 (optional)
+If you have time, play with the prediction in the browser with any of the following models:
 - Hiding-tiger
 - Passionate-t-rex (3D)
 -	Affable-shark
