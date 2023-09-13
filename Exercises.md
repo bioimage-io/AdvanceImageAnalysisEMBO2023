@@ -71,19 +71,22 @@ If you have time, play with the prediction in the browser with any of the follow
 
 ## Exercise 3: Download a model from the BioImage Model Zoo and install it with deepImageJ in Fiji
 
-1.	Look for a model to segment Mitochondria in 2D Transmission Electron Microscopy Images (e.g., `shivering-raccoon`).
+1.	Look for a model to segment Histopathology Images with StarDist (e.g., `chatty-frog`).
 2.	Find a way to download the model for deepImageJ (we will use them later).
 3.	Install it in Fiji: Plugins > DeepImageJ > DeepImageJ Install Model
     -	Choose “Install Private Model”. There write the entire path to the model zip file that you just downloaded. (In Linux, click on the right button and search for properties. There you will find the path to the folder and the name of the model)
     - Read the note and click on Install. If there is no error message, the model is installed and you can close the window.
 4.	Run a demo of the model: Plugin > DeepImageJ > DeepImageJ Run. Choose the model and click on Run on an example image.
 
+This model outputs the raw information needed to reconstruct Star-Convex polygons in StarDist. If you have the StarDist plugin, you can process this output with StarDist 2D NMS (postprocessing only).
+
 ## Exercise 4: Deep-learning boosted instance segmentation of cells.
-1.	Download the model `LiveCellSegmentationBoundaryModel` from the Bioimage Model Zoo
-    - The simplest way is to use the plugin deepImageJ Install Model in Fiji. This could take one or two minutes.
+1.	Download the model `B. Sutilist bacteria segmentation - Widefield microscopy - 2D UNet` from the Bioimage Model Zoo (`placid-llama`).
+    - The simplest way is to use the plugin deepImageJ Install Model in Fiji: Plugins > DeepImageJ > DeepImageJ Install Model
+    - Look for the model, read the warning note and accept it. This could take some minutes depending on the connection. Once the downloading window disappears, the process has finished and you can close deepImageJ installer.
 2.	Run a demo of the model in Fiji:
     -	Open deepImageJ Run.
-    - In Model, choose LiveCellSegmentationBoundaryModel
+    - In Model, choose B. Sutilist bacteria segmentation - Widefield microscopy - 2D UNet.
     -	Click on “Run an example image”.
     You will get the raw output of a model trained to predict cell boundaries and cell masks.
 3.	Save both images (input and output) to use them in the next steps.
