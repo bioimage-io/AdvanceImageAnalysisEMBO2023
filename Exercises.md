@@ -59,6 +59,7 @@ Browser prediction: Use the model `shivering-raccoon`.
 - Choose the correct order for the channels (look at the description of the model). For 2D, it is usually `bcyx`.
   ![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/blob/main/figures/shiveringracoon-axisinfo.png)
 - Click on submit.
+  ![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/blob/main/figures/shiveringracoon-bioengine.png)
  
 ### Exercise 2.1 (optional)
 If you have time, play with the prediction in the browser with any of the following models:
