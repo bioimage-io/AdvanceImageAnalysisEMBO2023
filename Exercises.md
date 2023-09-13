@@ -143,8 +143,10 @@ run("Set Label Map", "colormap=Spectrum background=Black shuffle");
 </details>
 
 # ilastik
+## Setup
 
-data: TODO: insert link :)
+1. [Download the example data](https://oc.embl.de/index.php/s/KFVEOIMYL5KxsYU).
+2. Unzip
 
 ## Exercise 5 - Boundary segmentation with the BioimageIO Model Zoo
 
