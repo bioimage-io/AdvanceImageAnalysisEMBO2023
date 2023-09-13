@@ -3,7 +3,9 @@
 EMBO Practical Course, Heidelberg, 2023
 
 # Preliminary installations (local workstations that need to be setup)
-## Fiji 
+
+**Fiji**
+
 From session one you should already have:
 - Download Fiji on your computer (https://imagej.net/software/fiji/downloads)
 - Install the required plugins in Fiji:
@@ -14,7 +16,7 @@ From session one you should already have:
     - DeepImageJ
   - Press Apply Changes.
 
-## ilastik
+**ilastik**
 
 * Download the latest beta version of ilastik from [our download page](https://www.ilastik.org/download.html#beta).
 * Windows users please install, Mac and linux users please extract the downloaded file.
@@ -24,17 +26,15 @@ Useful links:
 * [ilastik on forum.image.sc](https://forum.image.sc/tag/ilastik)
 * [ilastik source code](https://github.com/ilastik/ilastik)
 
-## BioImage Model Zoo
+**BioImage Model Zoo**
 
 Download and install [Google Chrome](https://www.google.com/chrome/)
 
-# Exercises
 
 # Exercise 1: Explore the BioImage Model Zoo content
 (User guide: https://bioimage.io/docs/#/user_guide/README)
 
 You have 5 minutes to complete this exercise :)
-
 
 1. Go to the BioImage Model Zoo and identify where to find:
   -	The Documentation
