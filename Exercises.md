@@ -42,6 +42,7 @@ You have 5 minutes to complete this exercise :)
   - Bug reports
   - Contact us
 2. Look for a model to segment *Bacillus Subtilis* bacteria.
+![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/figures/placidllama-modelcard.png)
 3. The model is displayed as a model card. If you click, it will open. Take a look at the information given (e.g., name of the authors, the publications, and the ID of the model.)
 **What is the (animal) name of this model?**
 4.	In the model card, find the Jupyter notebook that you could use to retrain the model. The link will open a new card with the information about this notebook. In this card, find a way to open it in Google Colab.
@@ -116,7 +117,6 @@ In the data folder, find the new data in `BSubtilis_DeepBacs`. Open one of the i
 3.	Run the Macro recorder to know how to run deepImageJ automatically.
 4.	Process the image with the model. 
 5.	Create a macro that processes all the images in the folder and saves them in a new folder. The following ImageJ macro may be helpful for you.
-![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/assets/43643518/bb9edf3a-f5af-498a-929b-80956d9027c7)
 
 ### IJ Macro for automation
 
