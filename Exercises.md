@@ -32,6 +32,9 @@ Download and install [Google Chrome](https://www.google.com/chrome/)
 
 ## Exercise 1: Explore the BioImage Model Zoo content
 (User guide: https://bioimage.io/docs/#/user_guide/README)
+You have 5 minutes to complete this exercise :)
+
+
 1. Go to the BioImage Model Zoo and identify where to find:
   -	The Documentation
   - “Ask for help”
