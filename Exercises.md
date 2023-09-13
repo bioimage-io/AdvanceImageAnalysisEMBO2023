@@ -56,6 +56,7 @@ Browser prediction: Use the model `shivering-raccoon`.
 ### Exercise 2.1
 Play with the prediction in the browser with the any of the following models:
 - Hiding-tiger
+- Passionate-t-rex (3D)
 -	Affable-shark
 -	Powerful-chipmunk
 -	Determined-chipmunk
