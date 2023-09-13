@@ -55,7 +55,9 @@ Browser prediction: Use the model `shivering-raccoon`.
 - Download the test image left column in the BioEngine describing the model.   
 - Click on Select, upload the image and choose it.
 - Choose the model format (`torchscript` is recommended)
+  ![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/blob/main/figures/shiveringracoon-axisdoc.png)
 - Choose the correct order for the channels (look at the description of the model). For 2D, it is usually `bcyx`.
+  ![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/blob/main/figures/shiveringracoon-axisinfo.png)
 - Click on submit.
  
 ### Exercise 2.1 (optional)
