@@ -106,6 +106,10 @@ This model outputs the raw information needed to reconstruct Star-Convex polygon
             -	Marker: The result of the subtraction (the previous step)
             -	Mask: Binary segmentation (thresholded output of the model)
             -	Compactness: 0.00.
+### Exercise 4.1: Process new images
+
+In the data folder, find the new data in `BSubtilis_DeepBacs`. Open one of the images and process it with the `placid-llama` model in deepImageJ (Plugins > DeepImageJ > DeepImageJ Run > Run).
+
 ## Exercise 5 Super-resolution models in Fiji (Optional and to run out of BAN)
 1.	Download the organized-cricket model for super-resolution and install it in deepImageJ. 
 2.	Open an image from the folder: Mitotracker Low-Resolution → Input
