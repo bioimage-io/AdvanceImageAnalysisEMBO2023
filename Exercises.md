@@ -42,7 +42,7 @@ You have 5 minutes to complete this exercise :)
   - Bug reports
   - Contact us
 2. Look for a model to segment *Bacillus Subtilis* bacteria.
-![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/figures/placidllama-modelcard.png)
+![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/blob/main/figures/placidllama-modelcard.png)
 3. The model is displayed as a model card. If you click, it will open. Take a look at the information given (e.g., name of the authors, the publications, and the ID of the model.)
 **What is the (animal) name of this model?**
 4.	In the model card, find the Jupyter notebook that you could use to retrain the model. The link will open a new card with the information about this notebook. In this card, find a way to open it in Google Colab.
