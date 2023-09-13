@@ -106,7 +106,14 @@ This model outputs the raw information needed to reconstruct Star-Convex polygon
             -	Marker: The result of the subtraction (the previous step)
             -	Mask: Binary segmentation (thresholded output of the model)
             -	Compactness: 0.00.
- 
+## Exercise 5 Super-resolution models in Fiji (Optional and to run out of BAN)
+1.	Download the organized-cricket model for super-resolution and install it in deepImageJ. 
+2.	Open an image from the folder: Mitotracker Low-Resolution → Input
+3.	Run the Macro recorder to know how to run deepImageJ automatically.
+4.	Process the image with the model. 
+5.	Create a macro that processes all the images in the folder and saves them in a new folder. The following ImageJ macro may be helpful for you.
+![image](https://github.com/bioimage-io/AdvanceImageAnalysisEMBO2023/assets/43643518/bb9edf3a-f5af-498a-929b-80956d9027c7)
+
 ### IJ Macro for automation
 
 The previous code can also be run automatically with an ImageJ macro:
