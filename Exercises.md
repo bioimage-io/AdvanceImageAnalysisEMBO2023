@@ -29,6 +29,10 @@ Useful links:
 * [ilastik on forum.image.sc](https://forum.image.sc/tag/ilastik)
 * [ilastik source code](https://github.com/ilastik/ilastik)
 
+## Download data
+
+[Download the example data](https://oc.embl.de/index.php/s/KFVEOIMYL5KxsYU).
+
 **BioImage Model Zoo**
 
 Download and install [Google Chrome](https://www.google.com/chrome/)
