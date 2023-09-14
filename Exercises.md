@@ -2,7 +2,7 @@
 
 EMBO Practical Course, Heidelberg, 2023
 
-# Preliminary installations (local workstations that need to be setup)
+# Preliminary installations
 
 **Fiji**
 
@@ -15,6 +15,9 @@ From session one you should already have:
     - IJB-Plugins
     - DeepImageJ
   - Press Apply Changes.
+
+Windows systems: You need to additionally install Visual Studio.
+M1 and M2 systems are not compatible with Tensorflow models. 
 
 **ilastik**
 
@@ -72,6 +75,9 @@ If you have time, play with the prediction in the browser with any of the follow
 -	Willing-hedgehog
 
 # Exercise 3: Download a model from the BioImage Model Zoo and install it with deepImageJ in Fiji
+
+M1 and M2 Mac systems: they are not compatible with TensorFlow. Try this exercise with a Pytorch model instead (e.g., `shivering-racoon`).
+
 1.	Look for a model to segment Histopathology Images with StarDist (e.g., `chatty-frog`).
 2.	Find a way to download the model for deepImageJ (we will use them later).
 3.	Install it in Fiji: Plugins > DeepImageJ > DeepImageJ Install Model
@@ -82,6 +88,9 @@ If you have time, play with the prediction in the browser with any of the follow
 This model outputs the raw information needed to reconstruct Star-Convex polygons in StarDist. If you have the StarDist plugin, you can process this output with StarDist 2D NMS (postprocessing only).
 
 # Exercise 4: Deep-learning boosted instance segmentation of cells.
+
+M1 and M2 Mac systems: they are not compatible with TensorFlow. Try this exercise with a Pytorch model instead (e.g., `hiding-tiger`).
+
 1.	Download the model `B. Sutilist bacteria segmentation - Widefield microscopy - 2D UNet` from the Bioimage Model Zoo (`placid-llama`).
     - The simplest way is to use the plugin deepImageJ Install Model in Fiji: Plugins > DeepImageJ > DeepImageJ Install Model
     - Look for the model, read the warning note and accept it. This could take some minutes depending on the connection. Once the downloading window disappears, the process has finished and you can close deepImageJ installer.
@@ -153,6 +162,9 @@ In the data folder, find the new data in `BSubtilis_DeepBacs`. Open one of the i
 You can now try opening the results as a time lapse stack in Fiji and track the bacteria with TrackMate (you may need to install the plugin).
 
 # Exercise 5 Super-resolution models in Fiji (Optional and to run out of BAN)
+
+(This is  a Pytorch model, so it cannot run in BAN.)
+
 1.	Download the organized-cricket model for super-resolution and install it in deepImageJ. 
 2.	Open an image from the folder: Mitotracker Low-Resolution → Input
 3.	Run the Macro recorder to learn how to run deepImageJ automatically.
