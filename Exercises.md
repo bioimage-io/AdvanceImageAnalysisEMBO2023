@@ -12,7 +12,7 @@ From session one you should already have:
   - Choose Help → Update and wait for it to complete;
   - In the ImageJ Updater, press Manage Update Sites;
   - Check the following sites and press Close:
-    - IJB-Plugins
+    - IJPB-plugins
     - DeepImageJ
   - Press Apply Changes.
 
@@ -36,7 +36,7 @@ Download and install [Google Chrome](https://www.google.com/chrome/)
 
 You have 5 minutes to complete this exercise :)
 
-1. Go to the BioImage Model Zoo and identify where to find:
+1. Go to the [BioImage Model Zoo](https://bioimage.io/) and identify where to find:
   -	The Documentation
   - “Ask for help”
   - Bug reports
