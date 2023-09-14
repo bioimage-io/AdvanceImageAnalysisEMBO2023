@@ -46,6 +46,7 @@ You have 5 minutes to complete this exercise :)
 1. Go to the [BioImage Model Zoo](https://bioimage.io/) and identify where to find:
   -	The Documentation
   - Question (Link to the image.sc forum)
+  - An option to comment on /ask about a resource (a model, dataset, notebook, etc)
   - Bug reports
   - Contact us
 2. Look for a model to segment *Bacillus Subtilis* bacteria.
